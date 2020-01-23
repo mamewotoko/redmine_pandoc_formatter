@@ -2,7 +2,7 @@ module RedminePandocFormatter
   module Helper
     unloadable
 
-    def wikitoolbar_for(field_id)
+    def wikitoolbar_for(field_id, preview_url = preview_text_path)
       nil
     end
 
