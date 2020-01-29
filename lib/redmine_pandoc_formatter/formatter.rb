@@ -1,7 +1,7 @@
 require 'pandoc-ruby'
 
 module RedminePandocFormatter
-  class Formatter
+  class Formatter < Redmine::WikiFormatting::Markdown::HTML
     def initialize(text)
       @text = text
     end
