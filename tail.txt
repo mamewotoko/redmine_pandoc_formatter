@@ -1,4 +1,4 @@
     <script>
       $('.wiki table').addClass('cell-border');
-      $('.wiki table').DataTable({ paging: false});
+      $('.wiki table').DataTable({ paging: false, info: false});
     </script>
