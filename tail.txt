@@ -1,4 +1,6 @@
-    <script>
-      $('.wiki table').addClass('cell-border');
-      $('.wiki table').DataTable({ paging: false, info: false});
-    </script>
+<script>
+$(document).ready(function(){
+  $('.wiki table').addClass('cell-border');
+  $('.wiki table').DataTable({paging: false, info: false});
+});
+</script>
