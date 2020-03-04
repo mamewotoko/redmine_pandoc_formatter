@@ -7,7 +7,9 @@ module RedminePandocFormatter
     end
 
     def to_html(&block)
-      PandocRuby.new(@text).to_html({ :email_obfuscation => :references })
+      head = "/usr/src/redmine/plugins/redmine_pandoc_formatter/head.txt"
+      tail = "/usr/src/redmine/plugins/redmine_pandoc_formatter/tail.txt"
+      PandocRuby.new(@text).to_html({ :B => head, :A => tail })
     rescue => e
       return("<pre>problem parsing wiki text: #{e.message}\n"+
              "original text: \n"+

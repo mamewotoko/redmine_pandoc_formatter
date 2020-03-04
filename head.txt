@@ -1,0 +1,2 @@
+    <link rel="stylesheet" type="text/css" href="/redmine/plugin_assets/redmine_pandoc_formatter/stylesheets/dataTables.min.css">
+    <script src="/redmine/plugin_assets/redmine_pandoc_formatter/javascripts/jquery.dataTables.min.js"></script>
